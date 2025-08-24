@@ -91,7 +91,7 @@ const ScaleControl: React.FC = () => {
   return (
     <div className="absolute bottom-4 left-4 bg-white px-3 py-2 rounded shadow-lg border text-sm font-medium z-[1000]">
       <div className="flex items-center space-x-2">
-        <div className="w-16 h-0.5 bg-black"></div>
+        <div className="w-14 h-0.5 bg-black"></div>
         <span>{scale}</span>
       </div>
     </div>
@@ -374,7 +374,7 @@ const InteractiveMapModal: React.FC<InteractiveMapModalProps> = ({ isOpen, onClo
         </div>
 
         {/* Legend - Interactive */}
-        <div className="absolute bottom-4 right-4 z-[1001] bg-white rounded-lg shadow-lg p-3 max-w-md w-70">
+        <div className="absolute bottom-4 right-4 z-[1001] bg-white rounded-lg shadow-lg p-3 max-w-md w-50">
           <div className="flex items-center justify-between mb-1">
             <h6 className="font-semibold text-gray-900 mr-20">
               {lang === "fr" ? "Légende" : lang === "en" ? "Legend" : "Legenda"}
