@@ -204,7 +204,6 @@ const SearchBar: React.FC<SearchBarProps> = ({
               type="button"
             >
               <Search size={20} />
-              <span>Pesquisar</span>
             </button>
           </div>
           {showSuggestions && searchQuery.trim() && (
